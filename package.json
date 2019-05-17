@@ -1,6 +1,6 @@
 {
-  "name": "apker",
-  "version": "1.0.5",
+  "name": "apker2",
+  "version": "1.0.6",
   "description": "a node wraper for aapt(android)",
   "main": "index.js",
   "bin": {
