@@ -1,8 +1,0 @@
-jobs:
-  main:
-    requires: [ ~pr, ~commit ]
-    template: nodejs/test@stable
-  publish:
-    requires: [ main ]
-    template: npme/publish@stable
-
