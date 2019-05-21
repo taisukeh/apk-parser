@@ -1,5 +1,5 @@
 {
-  "name": "apker2",
+  "name": "@yj-intl/apker2",
   "version": "1.0.6",
   "description": "a node wraper for aapt(android)",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "apker": "./bin/command"
   },
   "scripts": {
-      "install":"chmod +x ./bin/*"
+    "install":"chmod +x ./bin/*",
+    "test": "echo ok"
   },
   "dependencies": {
       "commander":"*"
